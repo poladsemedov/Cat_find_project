@@ -1,6 +1,6 @@
 using System.Media;
 
-namespace Pisik_bomba_oyunu
+namespace cat_find_project
 {
     public partial class Form1 : Form
     {
