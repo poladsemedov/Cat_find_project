@@ -44,12 +44,12 @@ namespace cat_find_project
             p5 = false;
             p6 = false;
 
-            q_img_1.ImageLocation = "C:\\Users\\Evez\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\question.png";
-            q_img_2.ImageLocation = "C:\\Users\\Evez\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\question.png";
-            q_img_3.ImageLocation = "C:\\Users\\Evez\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\question.png";
-            q_img_4.ImageLocation = "C:\\Users\\Evez\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\question.png";
-            q_img_5.ImageLocation = "C:\\Users\\Evez\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\question.png";
-            q_img_6.ImageLocation = "C:\\Users\\Evez\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\question.png";
+            q_img_1.ImageLocation = "C:\\Users\\Polad\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\question.png";
+            q_img_2.ImageLocation = "C:\\Users\\Polad\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\question.png";
+            q_img_3.ImageLocation = "C:\\Users\\Polad\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\question.png";
+            q_img_4.ImageLocation = "C:\\Users\\Polad\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\question.png";
+            q_img_5.ImageLocation = "C:\\Users\\Polad\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\question.png";
+            q_img_6.ImageLocation = "C:\\Users\\Polad\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\question.png";
         }
 
         private void q_img_1_Click(object sender, EventArgs e)
@@ -59,15 +59,15 @@ namespace cat_find_project
                 p1 = true;
                 if (bomba == 1)
                 {
-                    q_img_1.ImageLocation = "C:\\Users\\Evez\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\bomba.png";
-                    SoundPlayer s = new SoundPlayer("C:\\Users\\Evez\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\explosion.wav");
+                    q_img_1.ImageLocation = "C:\\Users\\Polad\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\bomba.png";
+                    SoundPlayer s = new SoundPlayer("C:\\Users\\Polad\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\explosion.wav");
                     s.Play();
                     bitdi = true;
                     MessageBox.Show("Oyun bitdi");
                 }
                 else
                 {
-                    q_img_1.ImageLocation = "C:\\Users\\Evez\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\cat.png";
+                    q_img_1.ImageLocation = "C:\\Users\\Polad\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\cat.png";
                     count++;
                     count_lbl.Text = count.ToString();
                     if (count == 5)
@@ -86,15 +86,15 @@ namespace cat_find_project
                 p2 = true;
                 if (bomba == 2)
                 {
-                    q_img_2.ImageLocation = "C:\\Users\\Evez\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\bomba.png";
-                    SoundPlayer s = new SoundPlayer("C:\\Users\\Evez\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\explosion.wav");
+                    q_img_2.ImageLocation = "C:\\Users\\Polad\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\bomba.png";
+                    SoundPlayer s = new SoundPlayer("C:\\Users\\Polad\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\explosion.wav");
                     s.Play();
                     bitdi = true;
                     MessageBox.Show("Oyun bitdi");
                 }
                 else
                 {
-                    q_img_2.ImageLocation = "C:\\Users\\Evez\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\cat.png";
+                    q_img_2.ImageLocation = "C:\\Users\\Polad\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\cat.png";
                     count++;
                     count_lbl.Text = count.ToString();
                     if (count == 5)
@@ -113,15 +113,15 @@ namespace cat_find_project
                 p3 = true;
                 if (bomba == 3)
                 {
-                    q_img_3.ImageLocation = "C:\\Users\\Evez\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\bomba.png";
-                    SoundPlayer s = new SoundPlayer("C:\\Users\\Evez\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\explosion.wav");
+                    q_img_3.ImageLocation = "C:\\Users\\Polad\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\bomba.png";
+                    SoundPlayer s = new SoundPlayer("C:\\Users\\Polad\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\explosion.wav");
                     s.Play();
                     bitdi = true;
                     MessageBox.Show("Oyun bitdi");
                 }
                 else
                 {
-                    q_img_3.ImageLocation = "C:\\Users\\Evez\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\cat.png";
+                    q_img_3.ImageLocation = "C:\\Users\\Polad\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\cat.png";
                     count++;
                     count_lbl.Text = count.ToString();
                     if (count == 5)
@@ -140,15 +140,15 @@ namespace cat_find_project
                 p4 = true;
                 if (bomba == 4)
                 {
-                    q_img_4.ImageLocation = "C:\\Users\\Evez\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\bomba.png";
-                    SoundPlayer s = new SoundPlayer("C:\\Users\\Evez\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\explosion.wav");
+                    q_img_4.ImageLocation = "C:\\Users\\Polad\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\bomba.png";
+                    SoundPlayer s = new SoundPlayer("C:\\Users\\Polad\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\explosion.wav");
                     s.Play();
                     bitdi = true;
                     MessageBox.Show("Oyun bitdi");
                 }
                 else
                 {
-                    q_img_4.ImageLocation = "C:\\Users\\Evez\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\cat.png";
+                    q_img_4.ImageLocation = "C:\\Users\\Polad\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\cat.png";
                     count++;
                     count_lbl.Text = count.ToString();
                     if (count == 5)
@@ -167,15 +167,15 @@ namespace cat_find_project
                 p5 = true;
                 if (bomba == 5)
                 {
-                    q_img_5.ImageLocation = "C:\\Users\\Evez\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\bomba.png";
-                    SoundPlayer s = new SoundPlayer("C:\\Users\\Evez\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\explosion.wav");
+                    q_img_5.ImageLocation = "C:\\Users\\Polad\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\bomba.png";
+                    SoundPlayer s = new SoundPlayer("C:\\Users\\Polad\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\explosion.wav");
                     s.Play();
                     bitdi = true;
                     MessageBox.Show("Oyun bitdi");
                 }
                 else
                 {
-                    q_img_5.ImageLocation = "C:\\Users\\Evez\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\cat.png";
+                    q_img_5.ImageLocation = "C:\\Users\\Polad\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\cat.png";
                     count++;
                     count_lbl.Text = count.ToString();
                     if (count == 5)
@@ -194,15 +194,15 @@ namespace cat_find_project
                 p6 = true;
                 if (bomba == 6)
                 {
-                    q_img_6.ImageLocation = "C:\\Users\\Evez\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\bomba.png";
-                    SoundPlayer s = new SoundPlayer("C:\\Users\\Evez\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\explosion.wav");
+                    q_img_6.ImageLocation = "C:\\Users\\Polad\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\bomba.png";
+                    SoundPlayer s = new SoundPlayer("C:\\Users\\Polad\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\explosion.wav");
                     s.Play();
                     bitdi = true;
                     MessageBox.Show("Oyun bitdi");
                 }
                 else
                 {
-                    q_img_6.ImageLocation = "C:\\Users\\Evez\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\cat.png";
+                    q_img_6.ImageLocation = "C:\\Users\\Polad\\Desktop\\VS 2026\\Pisik_bomba_oyunu\\Pisik_bomba_oyunu\\image\\cat.png";
                     count++;
                     count_lbl.Text = count.ToString();
                     if (count == 5)
