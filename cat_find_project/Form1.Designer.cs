@@ -1,4 +1,4 @@
-﻿namespace Pisik_bomba_oyunu
+﻿namespace cat_find_project
 {
     partial class Form1
     {
